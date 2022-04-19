@@ -25,8 +25,20 @@ if (firstWordLength > secondWordLength){
 } else if (firstWord < secondWord){
     result = `${firstWord} ${secondWord}`
 } else {
-    result =`Le due parole sono uguali`;
+    result =`Le due parole sono lunghe uguali, ${firstWord} ${secondWord}`;
 }
 
 //Output 
 console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
